@@ -1,10 +1,15 @@
 import { Example } from '../src/pages'
+import { ThemeProvider } from "styled-components";
+import theme from '../src/theme'
 
 function App() {
   return (
-    <div>
-      <Example title="E-commerce Boilerplate" />
-    </div>
+    <ThemeProvider theme={theme}>
+      <div>
+        <Example title="E-commerce Boilerplate" />
+      </div>
+    </ThemeProvider>
+
   )
 }
 

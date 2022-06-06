@@ -1,7 +1,9 @@
+import { Example } from '../src/pages'
+
 function App() {
   return (
     <div>
-      <p>Hello World!</p>
+      <Example title="E-commerce Boilerplate" />
     </div>
   )
 }

@@ -1,6 +1,6 @@
-import { Example } from '../src/pages'
+import { Example } from '@/pages';
 import { ThemeProvider } from "styled-components";
-import theme from '../src/theme'
+import theme from '@/theme';
 
 function App() {
   return (

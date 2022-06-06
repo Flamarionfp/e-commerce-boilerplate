@@ -1,4 +1,3 @@
-import { Example } from './pages';
 import { ThemeProvider } from "styled-components";
 import theme from './theme';
 import { Provider } from 'react-redux'

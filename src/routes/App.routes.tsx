@@ -3,7 +3,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import { Example } from '../pages';
+import { Example } from '@/pages';
 
 export default () => {
   return (

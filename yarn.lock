@@ -9050,6 +9050,13 @@ react-element-to-jsx-string@^14.3.4:
     is-plain-object "5.0.0"
     react-is "17.0.2"
 
+react-haiku@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-haiku/-/react-haiku-2.0.1.tgz#1d499249ae6e9558bdfd89d5101a6f99e2c0323b"
+  integrity sha512-J1EbI9uqRf1pZHKz3LkyM32WrPIBIDrRaZZzVk1TYZsdyGMWXySiK9YcnT9Fl2P9xX9pzzRJkZFTN1FxKPodxA==
+  dependencies:
+    react ">=16.8.0"
+
 react-inspector@^5.1.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/react-inspector/-/react-inspector-5.1.1.tgz#58476c78fde05d5055646ed8ec02030af42953c8"
@@ -9127,7 +9134,7 @@ react-syntax-highlighter@^15.4.5:
     prismjs "^1.27.0"
     refractor "^3.6.0"
 
-react@^18.0.0:
+react@>=16.8.0, react@^18.0.0:
   version "18.1.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.1.0.tgz#6f8620382decb17fdc5cc223a115e2adbf104890"
   integrity sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==

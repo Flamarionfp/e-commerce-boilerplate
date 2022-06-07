@@ -1,7 +1,9 @@
-import { Example } from './Example';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { Example } from './Example';
 
-const Template: ComponentStory<typeof Example> = (args) => <Example {...args} />;
+const Template: ComponentStory<typeof Example> = function (args) {
+  return <Example {...args} />;
+};
 
 export const Default = Template.bind({});
 Default.args = {
@@ -10,5 +12,5 @@ Default.args = {
 
 export default {
   title: 'Pages/Example',
-  component: Example,
+  component: Example
 } as ComponentMeta<typeof Example>;

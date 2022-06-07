@@ -1,8 +1,4 @@
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Example } from '@/pages';
 
 export default () => {
@@ -12,5 +8,5 @@ export default () => {
         <Route path="/" element={<Example title="Usuário autenticado" />} />
       </Routes>
     </BrowserRouter>
-  )
-}
+  );
+};

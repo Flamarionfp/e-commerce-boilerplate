@@ -1,17 +1,17 @@
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider } from 'styled-components';
+import { Provider } from 'react-redux';
 import theme from './theme';
-import { Provider } from 'react-redux'
-import { store } from './redux/store'
-import Routes from './routes'
+import { store } from './redux/store';
+import Routes from './routes';
 
-function App() {
+const App = function () {
   return (
     <Provider store={store}>
       <ThemeProvider theme={theme}>
         <Routes />
       </ThemeProvider>
     </Provider>
-  )
-}
+  );
+};
 
-export default App
+export default App;

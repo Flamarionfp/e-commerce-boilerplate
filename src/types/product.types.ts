@@ -3,7 +3,7 @@ export interface Product {
   displayName: string;
   hasFreeDelivere: boolean;
   isDesired: boolean;
-  numberOfReviews: number;
+  rate: number;
   listPrice: number;
   numberOfInstallments: number;
   installmentsPrice: number;

@@ -12,7 +12,7 @@ Showcase.args = {
   displayName: 'Samsung Galaxy S21+ 5G Dual SIM 128 GB',
   hasFreeDelivere: true,
   isDesired: true,
-  numberOfReviews: 4,
+  rate: 5,
   listPrice: 1059.65,
   numberOfInstallments: 10,
   installmentsPrice: 262.50,

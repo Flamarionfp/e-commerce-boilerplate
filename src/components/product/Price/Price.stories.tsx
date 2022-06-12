@@ -12,6 +12,6 @@ _Price.args = {
 };
 
 export default {
-  title: 'componentes/Price',
+  title: 'componentes/product/Price',
   component: Price
 } as ComponentMeta<typeof Price>;

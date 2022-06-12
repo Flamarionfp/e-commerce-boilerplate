@@ -11,6 +11,6 @@ _RateStars.args = {
 };
 
 export default {
-  title: 'componentes/RateStars',
+  title: 'componentes/product/RateStars',
   component: RateStars
 } as ComponentMeta<typeof RateStars>;

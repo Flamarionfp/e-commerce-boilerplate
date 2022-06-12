@@ -21,6 +21,6 @@ Showcase.args = {
 };
 
 export default {
-  title: 'componentes/ProductCard',
+  title: 'componentes/product/ProductCard',
   component: ProductCard
 } as ComponentMeta<typeof ProductCard>;

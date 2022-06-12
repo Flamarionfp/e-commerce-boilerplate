@@ -1,6 +1,6 @@
 import React from 'react';
 import { HomeProps } from './Home.types';
-import { Title, AuthorText, AuthorLink, ProductCardWrapper } from './styles';
+import { MainContainer, Title, AuthorText, AuthorLink, ProductCardWrapper } from './styles';
 import { ProductCard } from '../../../components'
 import { Center } from '../../../styles';
 
@@ -20,7 +20,7 @@ export const Home: React.FC<HomeProps> = function (props) {
 
   const { title } = props;
   return (
-    <React.Fragment>
+    <MainContainer>
       <Title>{title}</Title>
       <Center column>
         <AuthorText>Authors:
@@ -36,6 +36,6 @@ export const Home: React.FC<HomeProps> = function (props) {
           <ProductCard variant="showcase" {...productProps} />
         </ProductCardWrapper>
       </Center>
-    </React.Fragment >
+    </MainContainer>
   );
 };

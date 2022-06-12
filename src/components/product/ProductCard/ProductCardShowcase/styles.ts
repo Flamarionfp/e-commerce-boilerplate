@@ -6,7 +6,8 @@ export const ProductCard = styled.div`
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 4px;
   padding: 20px 15px 15px 15px;
-  width: 168px;
+  width: 200px;
+  height: 310px;
 `;
 
 export const ProductImage = styled.img`
@@ -16,7 +17,12 @@ export const ProductImage = styled.img`
 `;
 
 export const ProductTitle = styled.p`
-  font-size: 12px;
+  font-size: 14px;
   line-height:15.6px
+`;
+
+export const PriceContainer = styled.div`
+  margin-top: 20px;
+  margin-bottom: 20px;
 `;
 

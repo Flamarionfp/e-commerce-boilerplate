@@ -4,6 +4,7 @@ import {
   ProductCard,
   ProductImage,
   ProductTitle,
+  PriceContainer
 } from './styles';
 import { Center } from '../../../../styles';
 import _ from 'lodash';
@@ -21,7 +22,9 @@ export const ProductCardShowcase: React.FC<Product> = (props) => {
       </Center>
       <RateStars rate={rate} />
       <ProductTitle>{_.truncate(displayName, { length: 45 })}</ProductTitle>
-      <Price listPrice={listPrice} salePrice={salePrice} />
+      <PriceContainer>
+        <Price listPrice={listPrice} salePrice={salePrice} />
+      </PriceContainer>
       <Button displayName="Comprar" />
     </ProductCard>
   );

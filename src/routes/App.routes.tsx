@@ -5,7 +5,7 @@ export default () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home title="Welcome to E-commerce Boilerplate" />} />
+        <Route path="/" element={<Home title="Welcome to E-commerce Boilerplate (authenticated)" />} />
       </Routes>
     </BrowserRouter>
   );

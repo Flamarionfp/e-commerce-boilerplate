@@ -1,21 +1,26 @@
 import React from 'react';
 import { Product } from '@/types';
-import { Box, ProductImage, ProductTitle } from './styles';
+import {
+  ProductCard,
+  ProductImage,
+  ProductTitle,
+} from './styles';
 import { Center } from '../../../../styles';
-// import { MdStar, MdStarBorder } from "react-icons/md";
 import _ from 'lodash';
 import { RateStars } from '../../RateStars';
+import { Price } from '../../Price'
 
 export const ProductCardShowcase: React.FC<Product> = (props) => {
-  const { primaryImageUrl, displayName, rate } = props;
+  const { primaryImageUrl, displayName, rate = 0, salePrice = 0, listPrice = 0 } = props;
 
   return (
-    <Box>
+    <ProductCard>
       <Center>
         <ProductImage src={primaryImageUrl} alt={`Imagem do produto ${displayName}`} />
       </Center>
       <RateStars rate={rate} />
       <ProductTitle>{_.truncate(displayName, { length: 45 })}</ProductTitle>
-    </Box>
+      <Price listPrice={listPrice} salePrice={salePrice} />
+    </ProductCard>
   );
 }

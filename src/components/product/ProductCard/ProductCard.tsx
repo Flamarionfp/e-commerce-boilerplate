@@ -9,7 +9,7 @@ export const ProductCard: React.FC<ProductCardProps> = (props) => {
     const variants = {
       showcase: <ProductCardShowcase {...props} />
     }
-    return variants[variant];
+    return variants[variant] ?? <></>;
   }
 
   return getProductCardToRender(variant);

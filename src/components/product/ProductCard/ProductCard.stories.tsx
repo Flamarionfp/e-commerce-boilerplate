@@ -14,6 +14,7 @@ Showcase.args = {
   isDesired: true,
   rate: 5,
   listPrice: 1059.65,
+  salePrice: 989.33,
   numberOfInstallments: 10,
   installmentsPrice: 262.50,
   percentageOff: 0

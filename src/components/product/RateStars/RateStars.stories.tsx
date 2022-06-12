@@ -5,8 +5,8 @@ const Template: ComponentStory<typeof RateStars> = function (args) {
   return <RateStars {...args} />;
 };
 
-export const Showcase = Template.bind({});
-Showcase.args = {
+export const _RateStars = Template.bind({});
+_RateStars.args = {
   rate: 3
 };
 

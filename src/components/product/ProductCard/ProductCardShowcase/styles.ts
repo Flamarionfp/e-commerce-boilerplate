@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
-export const Box = styled.div`
+export const ProductCard = styled.div`
   min-height: 286px;
   background-color: #fff;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 4px;
   padding: 20px 15px 15px 15px;
   width: 168px;
 `;
@@ -18,3 +19,4 @@ export const ProductTitle = styled.p`
   font-size: 12px;
   line-height:15.6px
 `;
+

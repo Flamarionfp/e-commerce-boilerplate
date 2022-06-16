@@ -3,6 +3,7 @@ export interface Price {
   salePrice: number;
 }
 export interface Product extends Price {
+  id: string;
   primaryImageUrl: string;
   displayName: string;
   hasFreeDelivere: boolean;

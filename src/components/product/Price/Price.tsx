@@ -5,7 +5,6 @@ import {
   ProductPrice,
 } from './styles';
 
-
 export const Price: React.FC<PriceProps> = (props) => {
   const { salePrice = 0, listPrice = 0 } = props;
 
@@ -19,7 +18,6 @@ export const Price: React.FC<PriceProps> = (props) => {
           {toCurrency(listPrice).format()}
         </ProductPrice>
       )}
-
 
       <ProductPrice
         lineThrough={false}

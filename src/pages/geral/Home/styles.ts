@@ -20,8 +20,13 @@ export const AuthorLink = styled.a`
   color: #00d2ff;
   margin-left: 3px;
   margin-right: 3px;
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 export const ProductCardWrapper = styled.div`
   margin-top: 30px;
+  gap: 30px;
+  display: flex;
 `;

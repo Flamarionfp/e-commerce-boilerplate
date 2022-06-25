@@ -10,7 +10,7 @@ import { Center } from '../../../../styles';
 import _ from 'lodash';
 import { RateStars } from '../../RateStars';
 import { Price } from '../../Price'
-import { Button } from '../../../geral';
+import { PurchaseButton } from '../../../geral';
 
 export const ProductCardShowcase: React.FC<Product> = (props) => {
   const { primaryImageUrl, displayName, rate = 0, salePrice = 0, listPrice = 0 } = props;
@@ -25,7 +25,7 @@ export const ProductCardShowcase: React.FC<Product> = (props) => {
       <PriceContainer>
         <Price listPrice={listPrice} salePrice={salePrice} />
       </PriceContainer>
-      <Button displayName="Comprar" />
+      <PurchaseButton displayName="Comprar" />
     </ProductCard>
   );
 }

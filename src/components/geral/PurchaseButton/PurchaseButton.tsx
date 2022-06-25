@@ -1,8 +1,8 @@
 import React from 'react';
-import { ButtonProps } from './Button.types';
+import { PurchaseButtonProps } from './PurchaseButton.types';
 import { ButtonContainer, ButtonText } from './styles';
 
-export const Button: React.FC<ButtonProps> = (props) => {
+export const PurchaseButton: React.FC<PurchaseButtonProps> = (props) => {
   const { displayName } = props;
   return (
     <ButtonContainer {...props}>

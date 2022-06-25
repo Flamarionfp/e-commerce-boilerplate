@@ -1,4 +1,11 @@
 export default {
+  primary: {
+    100: '#ffa460',
+    200: '#ff7c39',
+    300: '#fc4b08',
+    400: '#de2e03',
+    500: '#c00000',
+  },
   gray: {
     100: '#f6f9fc',
     200: '#e9ecef',

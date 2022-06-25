@@ -7,7 +7,7 @@ const Template: ComponentStory<typeof PurchaseButton> = function (args) {
 
 export const _PurchaseButton = Template.bind({});
 _PurchaseButton.args = {
-  displayName: 'Example Button',
+  displayName: 'Example Purchase Button',
 };
 
 export default {

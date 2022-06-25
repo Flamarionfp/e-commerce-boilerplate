@@ -17,7 +17,7 @@ export const ButtonContainer = styled.button`
 
 export const ButtonText = styled.span`
    color: #fff;
-   font-size: 12px;
+   font-size: ${props => props.theme.fonts['xs']};
    font-weight: bold;
 `;
 

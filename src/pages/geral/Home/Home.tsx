@@ -1,7 +1,7 @@
 import React from 'react';
 import { HomeProps } from './Home.types';
 import { MainContainer, Title, AuthorText, AuthorLink, ProductCardWrapper } from './styles';
-import { ProductCard } from '@/components';
+import { ProductCard } from '../../../components';
 import { Center } from '../../../styles';
 
 export const Home: React.FC<HomeProps> = function (props) {
